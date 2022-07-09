@@ -1,0 +1,169 @@
+/* [Some Fonts:
+font-family: 'Abril Fatface',
+cursive;
+font-family: 'Acme',
+sans-serif;
+font-family: 'Permanent Marker',
+cursive;
+font-family: 'Poppins',
+sans-serif;] */
+
+
+body {
+    margin: 0;
+    background-image: url(images/13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+::placeholder {
+    color: black;
+}
+
+
+.topmenu {
+    font-family: 'Permanent Marker', cursive;
+    margin-top: -22px;
+    text-align: center;
+    background-color: aliceblue;
+    height: 45px;
+    border-radius: 0px 0px 50px 50px;
+    color: rgb(255, 25, 0)
+}
+
+header {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    margin-top: 20px;
+    width: 100px;
+    filter: invert(100%);
+
+}
+
+nav {
+
+    width: 30%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: 3px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 12px;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    /* border-top: 4px solid red; */
+    border-bottom: 4px solid skyblue;
+    background-color: aliceblue;
+    border-radius: 8px;
+    color: black;
+    box-shadow: 5px 1px 15px 8px lightblue;
+}
+
+.active {
+    border-bottom: 4px solid skyblue;
+    background-color: aliceblue;
+    border-radius: 8px;
+    color: black;
+
+}
+
+.side-menu input {
+    text-align: center;
+    padding: 7px 18px;
+    border-radius: 5px;
+    border: 0px solid white;
+    font-size: 15px;
+    cursor: pointer;
+    border-bottom: 4px solid skyblue;
+}
+
+.side-menu input:hover {
+    box-shadow: 5px 1px 15px 8px lightblue;
+
+}
+
+.login {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.login form {
+    border: 2px solid whitesmoke;
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 5px;
+    border-radius: 10px;
+
+
+}
+
+form input {
+    width: 70%;
+    margin: 8px 0;
+    padding: 8px 50px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+form input:hover {
+    box-shadow: 5px 1px 15px 8px white;
+    background-color: transparent;
+    color: white;
+}
+
+.btn1 {
+    width: 85%;
+    background-color: rgba(135, 207, 235, 0.549);
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.btn1:hover {
+    box-shadow: 5px 1px 15px 8px white;
+    background-color: transparent;
+    color: white;
+
+}
